@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.goodscompany.goodscompany.entities</OriginalElement>
+  <nodes>
+    <node x="358.99999999999994" y="0.0">com.goodscompany.goodscompany.enums.ProductState</node>
+    <node x="375.0" y="170.0">com.goodscompany.goodscompany.entities.ProductActivationEntry</node>
+    <node x="0.0" y="170.0">com.goodscompany.goodscompany.entities.PriceReduction</node>
+    <node x="187.99999999999997" y="181.0">com.goodscompany.goodscompany.entities.Supplier</node>
+    <node x="223.99999999999994" y="952.0">com.goodscompany.goodscompany.entities.Role</node>
+    <node x="210.99999999999997" y="11.0">com.goodscompany.goodscompany.entities.Country</node>
+    <node x="238.49999999999994" y="694.0">com.goodscompany.goodscompany.entities.ApplicationUser</node>
+    <node x="125.49999999999994" y="392.0">com.goodscompany.goodscompany.entities.Product</node>
+    <node x="258.49999999999994" y="1122.0">com.goodscompany.goodscompany.entities.Permission</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.goodscompany.goodscompany.entities.ProductActivationEntry" target="com.goodscompany.goodscompany.entities.Product">
+      <point x="0.0" y="71.0" />
+      <point x="508.5" y="372.0" />
+      <point x="393.8333333333333" y="372.0" />
+      <point x="128.33333333333337" y="-126.0" />
+    </edge>
+    <edge source="com.goodscompany.goodscompany.entities.Supplier" target="com.goodscompany.goodscompany.entities.Country">
+      <point x="-38.75" y="-60.0" />
+      <point x="226.74999999999997" y="150.0" />
+      <point x="238.24999999999997" y="150.0" />
+      <point x="-27.25" y="49.0" />
+    </edge>
+    <edge source="com.goodscompany.goodscompany.entities.Product" target="com.goodscompany.goodscompany.entities.PriceReduction">
+      <point x="-128.3333333333332" y="-126.0" />
+      <point x="137.16666666666674" y="372.0" />
+      <point x="21.0" y="372.0" />
+      <point x="-63.0" y="71.0" />
+    </edge>
+    <edge source="com.goodscompany.goodscompany.entities.Product" target="com.goodscompany.goodscompany.entities.ApplicationUser">
+      <point x="70.0" y="126.0" />
+      <point x="-1.4210854715202004E-14" y="-104.0" />
+    </edge>
+    <edge source="com.goodscompany.goodscompany.entities.Product" target="com.goodscompany.goodscompany.enums.ProductState">
+      <point x="81.66666666666663" y="-126.0" />
+      <point x="347.1666666666666" y="372.0" />
+      <point x="364.5" y="372.0" />
+      <point x="364.5" y="150.0" />
+      <point x="430.99999999999994" y="150.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="com.goodscompany.goodscompany.entities.PriceReduction" target="com.goodscompany.goodscompany.entities.Product">
+      <point x="63.0" y="71.0" />
+      <point x="147.0" y="342.0" />
+      <point x="207.16666666666669" y="342.0" />
+      <point x="-58.33333333333326" y="-126.0" />
+    </edge>
+    <edge source="com.goodscompany.goodscompany.entities.ApplicationUser" target="com.goodscompany.goodscompany.entities.Role">
+      <point x="1.4210854715202004E-14" y="104.0" />
+      <point x="1.4210854715202004E-14" y="-60.0" />
+    </edge>
+    <edge source="com.goodscompany.goodscompany.entities.Role" target="com.goodscompany.goodscompany.entities.Permission">
+      <point x="55.75" y="60.0" />
+      <point x="391.24999999999994" y="1097.0" />
+      <point x="373.99999999999994" y="1097.0" />
+      <point x="38.5" y="-49.0" />
+    </edge>
+    <edge source="com.goodscompany.goodscompany.entities.ProductActivationEntry" target="com.goodscompany.goodscompany.entities.ApplicationUser">
+      <point x="89.0" y="71.0" />
+      <point x="597.5" y="372.0" />
+      <point x="551.0138888888889" y="372.0" />
+      <point x="551.0138888888889" y="669.0" />
+      <point x="400.16666666666663" y="669.0" />
+      <point x="64.66666666666669" y="-104.0" />
+    </edge>
+    <edge source="com.goodscompany.goodscompany.entities.Product" target="com.goodscompany.goodscompany.entities.ProductActivationEntry">
+      <point x="105.0" y="-126.0" />
+      <point x="370.49999999999994" y="362.0" />
+      <point x="419.5" y="362.0" />
+      <point x="-89.0" y="71.0" />
+    </edge>
+    <edge source="com.goodscompany.goodscompany.entities.Product" target="com.goodscompany.goodscompany.entities.Supplier">
+      <point x="-34.99999999999994" y="-126.0" />
+      <point x="230.5" y="332.0" />
+      <point x="207.37499999999997" y="332.0" />
+      <point x="-58.125" y="60.0" />
+    </edge>
+    <edge source="com.goodscompany.goodscompany.entities.ProductActivationEntry" target="com.goodscompany.goodscompany.enums.ProductState">
+      <point x="-5.6843418860808015E-14" y="-71.0" />
+      <point x="508.4999999999999" y="150.0" />
+      <point x="478.99999999999994" y="150.0" />
+      <point x="48.0" y="60.0" />
+    </edge>
+    <edge source="com.goodscompany.goodscompany.entities.Permission" target="com.goodscompany.goodscompany.entities.Role">
+      <point x="-38.5" y="-49.0" />
+      <point x="296.99999999999994" y="1097.0" />
+      <point x="279.74999999999994" y="1097.0" />
+      <point x="-55.75" y="60.0" />
+    </edge>
+    <edge source="com.goodscompany.goodscompany.entities.ApplicationUser" target="com.goodscompany.goodscompany.entities.Product">
+      <point x="-64.66666666666669" y="-104.0" />
+      <point x="270.83333333333326" y="669.0" />
+      <point x="195.49999999999994" y="669.0" />
+      <point x="-70.0" y="126.0" />
+    </edge>
+    <edge source="com.goodscompany.goodscompany.entities.Supplier" target="com.goodscompany.goodscompany.entities.Product">
+      <point x="19.375" y="60.0" />
+      <point x="284.875" y="372.0" />
+      <point x="277.16666666666663" y="372.0" />
+      <point x="11.666666666666686" y="-126.0" />
+    </edge>
+    <edge source="com.goodscompany.goodscompany.entities.Role" target="com.goodscompany.goodscompany.entities.ApplicationUser">
+      <point x="-74.33333333333331" y="-60.0" />
+      <point x="261.16666666666663" y="927.0" />
+      <point x="270.83333333333326" y="927.0" />
+      <point x="-64.66666666666667" y="104.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5403225806451613" x="321.0" y="610.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
