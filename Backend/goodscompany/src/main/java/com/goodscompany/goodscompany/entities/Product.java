@@ -55,7 +55,10 @@ public class Product {
             })
     @JoinTable(name = "PRODUCT_SUPPLIER",
             joinColumns = @JoinColumn(name = "product_id"),
-            inverseJoinColumns = @JoinColumn(name = "supplier_id")
+            inverseJoinColumns = @JoinColumn(name = "supplier_id"),
+            indexes = {
+                @Index(name = "product_supplier_unique", columnList = "product_id, supplier_id", unique = true)
+            }
     )
     private List<Supplier> suppliers = new ArrayList<>();
 
